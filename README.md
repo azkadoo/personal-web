@@ -1,2 +1,3 @@
 # personal-web
-Making personal web
+
+Making personal web with npm

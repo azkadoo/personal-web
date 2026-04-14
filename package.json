@@ -4,6 +4,8 @@
   "description": "Making personal web",
   "main": "main.js",
   "scripts": {
+    "dev": "npx webpack ./main.js --watch",
+    "tw:dev": "npx @tailwindcss/cli -i ./style.css -o ./dist/global.css --watch",
     "build": "npx webpack ./main.js --mode=production"
   },
   "repository": {
@@ -23,6 +25,8 @@
     "webpack-cli": "^7.0.2"
   },
   "dependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "tailwindcss": "^4.2.2",
     "typed.js": "^3.0.0"
   }
 }
