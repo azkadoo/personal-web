@@ -4,9 +4,10 @@
   "description": "Making personal web",
   "main": "main.js",
   "scripts": {
-    "dev": "npx webpack ./main.js --watch",
-    "tw:dev": "npx @tailwindcss/cli -i ./style.css -o ./dist/global.css --watch",
-    "build": "npx webpack ./main.js --mode=production"
+    "dev": "npx webpack ./src/main.js --watch",
+    "tw:dev": "npx @tailwindcss/cli -i ./src/style.css -o ./dist/global.css --watch",
+    "build": "npx webpack ./src/main.js --mode=production",
+    "tw:build": "npx @tailwindcss/cli -i ./src/style.css -o ./dist/global.css --mode=production"
   },
   "repository": {
     "type": "git",
