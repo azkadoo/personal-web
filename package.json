@@ -2,7 +2,7 @@
   "name": "personal-web",
   "version": "1.0.0",
   "description": "Making personal web",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
     "dev": "npx webpack ./src/main.js --watch",
     "tw:dev": "npx @tailwindcss/cli -i ./src/style.css -o ./dist/global.css --watch",
